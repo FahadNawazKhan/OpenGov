@@ -93,53 +93,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Statistics Section */}
-      <section className="py-16 px-4 bg-gradient-to-br from-cyber/10 via-electric/5 to-neon/10">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold gradient-text mb-4">
-              Making Real Impact Across India
-            </h2>
-            <p className="text-muted-foreground text-lg">
-              Join thousands of active citizens and authorities
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-4 gap-6">
-            <Card className="p-6 text-center bg-gradient-to-br from-cyber/20 to-cyber/5 border-cyber/30 hover-scale">
-              <div className="w-16 h-16 bg-cyber rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-white" />
-              </div>
-              <div className="text-4xl font-bold text-cyber mb-2">50K+</div>
-              <div className="text-sm font-medium text-muted-foreground">Active Citizens</div>
-            </Card>
-            
-            <Card className="p-6 text-center bg-gradient-to-br from-electric/20 to-electric/5 border-electric/30 hover-scale">
-              <div className="w-16 h-16 bg-electric rounded-full flex items-center justify-center mx-auto mb-4">
-                <FileText className="w-8 h-8 text-white" />
-              </div>
-              <div className="text-4xl font-bold text-electric mb-2">200K+</div>
-              <div className="text-sm font-medium text-muted-foreground">Reports Filed</div>
-            </Card>
-            
-            <Card className="p-6 text-center bg-gradient-to-br from-neon/20 to-neon/5 border-neon/30 hover-scale">
-              <div className="w-16 h-16 bg-neon rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="w-8 h-8 text-white" />
-              </div>
-              <div className="text-4xl font-bold text-neon mb-2">85%</div>
-              <div className="text-sm font-medium text-muted-foreground">Resolution Rate</div>
-            </Card>
-            
-            <Card className="p-6 text-center bg-gradient-to-br from-success/20 to-success/5 border-success/30 hover-scale">
-              <div className="w-16 h-16 bg-success rounded-full flex items-center justify-center mx-auto mb-4">
-                <Globe className="w-8 h-8 text-white" />
-              </div>
-              <div className="text-4xl font-bold text-success mb-2">500+</div>
-              <div className="text-sm font-medium text-muted-foreground">Cities Covered</div>
-            </Card>
-          </div>
-        </div>
-      </section>
+      
 
       {/* How It Works - Step by Step */}
       <section className="py-20 px-4 bg-background">
@@ -360,79 +314,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Testimonials / Success Stories */}
-      <section className="py-20 px-4 bg-muted/30">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <Badge className="mb-4 bg-success/20 text-success border-success/30">SUCCESS STORIES</Badge>
-            <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">
-              Real People, Real Impact
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card className="p-6 card-kurzgesagt">
-              <div className="flex gap-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-accent text-accent" />
-                ))}
-              </div>
-              <p className="text-muted-foreground mb-4">
-                &quot;I reported a dangerous pothole near my kids&apos; school. Within 48 hours, it was fixed! OpenGov actually works.&quot;
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-cyber rounded-full flex items-center justify-center">
-                  <Users className="w-5 h-5 text-white" />
-                </div>
-                <div>
-                  <div className="font-bold">Priya Sharma</div>
-                  <div className="text-sm text-muted-foreground">Mumbai Citizen</div>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6 card-kurzgesagt">
-              <div className="flex gap-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-accent text-accent" />
-                ))}
-              </div>
-              <p className="text-muted-foreground mb-4">
-                &quot;As a municipal officer, OpenGov has transformed how we handle citizen complaints. The analytics are game-changing.&quot;
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-electric rounded-full flex items-center justify-center">
-                  <Shield className="w-5 h-5 text-white" />
-                </div>
-                <div>
-                  <div className="font-bold">Rajesh Kumar</div>
-                  <div className="text-sm text-muted-foreground">Delhi Authority</div>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6 card-kurzgesagt">
-              <div className="flex gap-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-accent text-accent" />
-                ))}
-              </div>
-              <p className="text-muted-foreground mb-4">
-                &quot;Finally, a platform where our voices are heard! The transparency and quick response times are incredible.&quot;
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-neon rounded-full flex items-center justify-center">
-                  <ThumbsUp className="w-5 h-5 text-white" />
-                </div>
-                <div>
-                  <div className="font-bold">Anita Desai</div>
-                  <div className="text-sm text-muted-foreground">Bangalore Resident</div>
-                </div>
-              </div>
-            </Card>
-          </div>
-        </div>
-      </section>
+      
 
 
       {/* Benefits Section */}

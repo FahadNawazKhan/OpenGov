@@ -83,7 +83,7 @@ const CitizenDashboard = () => {
     <div className="max-w-6xl mx-auto">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-4xl font-bold mb-2 gradient-text">Welcome, {user?.name}! 👋</h1>
+        <h1 className="text-4xl font-bold mb-2 gradient-text">Welcome, {user?.name}! </h1>
         <p className="text-muted-foreground text-lg">Track your reports and make your community better</p>
       </div>
 
