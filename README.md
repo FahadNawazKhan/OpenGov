@@ -1,73 +1,21 @@
-# Welcome to your Lovable project
+Imagine this — you walk past a broken streetlight every night. You’ve complained, tweeted, even tagged your city, but nothing changes.
 
-## Project info
+Now imagine you open an app, snap a photo, hit submit — and that issue instantly lands on the right officer’s dashboard, gets assigned, and you can watch the fix in real time.
 
-**URL**: https://lovable.dev/projects/dc459de1-631d-4a0f-84ae-3e8f04622416
+That’s OpenGov, where citizens become active participants, not passive complainers.
 
-## How can I edit this code?
+We built it with React + Vite for blazing-fast UX, Firebase for real-time updates, and Express to handle smart routing and scalable APIs.
 
-There are several ways of editing your application.
+In less than 6 hours, a small team can set it up for any community — from a college campus to an entire city ward.
 
-**Use Lovable**
+Why now? Because transparency isn’t optional anymore — it’s demanded. We’re not just fixing roads; we’re rebuilding trust between people and systems.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dc459de1-631d-4a0f-84ae-3e8f04622416) and start prompting.
+So when I hand you this app — this isn’t just another codebase. This is the voice of every citizen who finally gets heard.
 
-Changes made via Lovable will be committed automatically to this repo.
+Objection: “Citizens won’t use it.” Reply: “We make reporting 30 seconds: snap, pin, submit. Plus we show progress — that visibility is the biggest motivator. People respond to results.”
 
-**Use your preferred IDE**
+Objection: “Municipalities already have systems.” Reply: “OpenGov integrates with minimal friction — start as a public-facing intake + dashboard. If your current system is buried, OpenGov becomes the visible front door that reduces duplicate entries and improves data quality to feed back into legacy systems.”
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Objection: “How do you prevent spam?” Reply: “Phone/email verification + rate limits + duplicate detection. High-impact actions require verification; low-impact ideas can remain anonymous.”
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dc459de1-631d-4a0f-84ae-3e8f04622416) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Objection: “Who pays?” Reply: “Pilot sponsorship, subscription dashboards for city/campus admins, and premium analytics for budgeting — clear B2B revenue path after a successful pilot.
